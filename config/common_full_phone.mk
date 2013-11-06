@@ -10,10 +10,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
   Mms
 
-# BT config
-PRODUCT_COPY_FILES += \
-    system/bluetooth/data/main.conf:system/etc/bluetooth/main.conf
-
-
     PRODUCT_COPY_FILES += \
         vendor/gwe/prebuilt/common/bootanimation/gwe.zip:system/media/bootanimation.zip
